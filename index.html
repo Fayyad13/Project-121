@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Google Lens VS MobileNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <div>
+                <div><h3>Google Lens</h3></div>
+                <div><h3>VS</h3></div>
+                <div><h3>MobileNet</h3></div>
+            </div>
+            <hr>
+            <!--
+                <span id="span_left">
+                    <div><h4>Image</h4></div>
+                    <div><img src=Bookmark.jpg></div>
+                </span>
+                -->
+            
+                <span id="span_right">
+                    <span>
+                        <p class="btn result_para_tag GL">Output On Google Lens: 
+                            <span id="GL">8/10</span> 
+                          </p>    
+                    </span>
+                    <span>
+                        <p class="btn result_para_tag MN">Output On MobileNet: 
+                            <span id="MN">1/10</span> 
+                          </p>    
+                    </span>
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4 id="Result">
+                        I have tested 10 objects in total
+                        <br><br>
+                        Google Lens more accurately identified 8 out of the 10 objects shown.
+                        <br><br>
+                        MobileNet on the other hand more accurately guessed only 1 out of the 10 objects shown.
+                        <br><br>
+                        For 1 of the objects, neither Google Lens or MobileNet even remotely accurately identified the object.
+                    </h4>
+                </span> 
+        
+    </body>
+</html>

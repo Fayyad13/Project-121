@@ -1,0 +1,67 @@
+body
+{
+    background-color: gray;
+    color: white;
+}
+
+.result_para_tag
+{
+  box-shadow:5px 5px 5px grey;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+}
+#span_left img
+{
+    height: 400px;
+}
+/*
+#span_left
+{
+    float: left;
+    margin-left: 30px;
+}
+*/
+#span_right
+{
+    /*float: right;*/
+    width: 895px;
+    margin-right: 20px;
+}
+
+.GL
+{
+    margin-right: 40px;
+}
+
+.MN
+{
+    margin-right: 20px;
+}
+
+#GL
+{
+    color: purple;
+    font-size: 18px;
+}
+
+#MN
+{
+    color: purple;
+    font-size: 18px;
+}
+
+#Result
+{
+    border: purple;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    background-color: rgba(204, 45, 204, 0.623);
+    text-align: left;
+    color: black;
+}
